@@ -1,0 +1,26 @@
+.navbar .navbar-brand span,
+.carousel i,
+.features .feat:hover i,
+.features .feat:hover h4,
+.prices .price-box:hover p,
+.testimonials .carousel-item span,
+.our-team .team .member a:hover,
+.footer p span,
+.footer a:hover,
+.about span {
+    color: rgb(49, 9, 228);
+}
+
+.navbar-nav .show>.nav-link,
+.navbar-nav .nav-link.active,
+.stats .data .row .branch:hover,
+.carousel .carousel-indicators button.active,
+.color-change i,
+#scroll-button {
+    background-color: rgb(49, 9, 228);
+}
+
+.prices .price-box:hover p,
+.color-change .change {
+    border: 2px solid rgb(49, 9, 228);
+}

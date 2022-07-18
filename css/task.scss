@@ -1,0 +1,275 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+section {
+    padding: 50px 0;
+}
+
+#scroll-button {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 32px;
+    text-align: center;
+    display: none;
+    color: #fff;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+
+// =============== Start Change Color ===================
+.color-change {
+    position: fixed;
+    z-index: 9999;
+    top: 100px;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    .change {
+        display: none;
+    }
+    ul {
+        padding: 10px;
+        margin: 0 !important;
+        line-height: 100%;
+        li {
+            display: inline-block;
+            width: 30px;
+            margin: 0 5px;
+            height: 30px;
+            cursor: pointer;
+        }
+    }
+    i {
+        margin-left: 10px;
+        width: 50px;
+        height: 57px;
+        line-height: 50px;
+        font-size: 32px;
+        cursor: pointer;
+        text-align: center;
+    }
+    span {
+        line-height: 50px;
+        font-weight: bold;
+        display: none;
+        margin-left: 5px;
+        background-color: #ddd;
+        padding: 0 5px;
+    }
+}
+
+// =============== End Change Color ===================
+// ================ Start Navbar ================
+.navbar {
+    padding: 0;
+    .navbar-brand {
+        font-size: 28px;
+        padding: 0;
+    }
+    #my-navbar {
+        li a {
+            padding: 20px 10px;
+            font-size: 20px;
+        }
+    }
+}
+
+// ================ End Navbar ================
+// ================ Start carousel ================
+@media(max-width:850px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.carousel {
+    padding-top: 40px;
+    margin: 0;
+    .carousel-indicators button {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #ddd;
+    }
+    .carousel-inner {
+        .carousel-caption {
+            bottom: 35%;
+            background-color: #ccc;
+            padding: 25px;
+        }
+    }
+    button {
+        i {
+            font-size: 38px;
+            color: #fff;
+        }
+    }
+}
+
+// ================ End carousel ================
+// ================ Start About ================
+.about {
+    p {
+        color: #777;
+        strong {
+            font-weight: bold;
+            color: #000;
+        }
+    }
+}
+
+// ================ End About ================
+// ================ Start features ================
+.features {
+    background-color: #ddd;
+}
+
+// ================ End features ================
+// ================ Start testimonials ================
+.testimonials {
+    .carousel-inner {
+        padding-bottom: 100px;
+        .carousel-item {
+            padding: 25px 50px;
+            span {
+                font-size: 24px;
+            }
+        }
+    }
+    .carousel-indicators {
+        img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+    }
+    button {
+        justify-content: space-between;
+        width: 5%;
+        margin: 0;
+        opacity: 1;
+        i {
+            color: #333;
+        }
+    }
+}
+
+// ================ End testimonials ================
+// ================ Start prices ================
+.prices {
+    background-color: #ddd;
+    .price-box {
+        margin-bottom: 50px;
+        p {
+            display: inline-block;
+            padding: 10px;
+            border-radius: 50%;
+            font-size: 28px;
+        }
+    }
+}
+
+// ================ End prices ================
+// ================ Start our-team ================
+.our-team {
+    .member {
+        margin-bottom: 20px;
+        img {
+            width: 80%;
+            height: 250px;
+            margin: auto;
+            margin-bottom: 20px;
+            border-radius: 50%;
+        }
+        p {
+            font-weight: bold;
+            font-size: 22px;
+        }
+    }
+}
+
+// ================ End our-team ================
+// ================ Start Subscribe ================
+.Subscribe {
+    background-color: #ddd;
+    form {
+        input {
+            margin: 10px auto;
+            width: 50%;
+        }
+    }
+}
+
+// ================ End Subscribe ================
+// ================ Start stats================
+.stats {
+    .branch {
+        padding: 25px;
+        p {
+            font-size: 32px;
+            margin: 0;
+        }
+        span {
+            font-size: 24px;
+            // font-weight: bold;
+        }
+    }
+}
+
+// ================ End stats ================
+// ================ Start skills ================
+.skills {
+    background-color: #ddd;
+    .skills-progress {
+        margin-bottom: 30px;
+        .progress {
+            height: 40px;
+            text-align: center;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+// ================ End skills ================
+// ================ Start conact-us ================
+.conact-us {
+    padding-bottom: 0;
+    form {
+        input {
+            margin-bottom: 20px;
+        }
+        textarea {
+            margin-bottom: 10px;
+        }
+    }
+    .footer {
+        margin-top: 30px;
+        background-color: #333;
+        padding: 20px 0;
+        color: #ddd;
+        a {
+            color: #ddd;
+            font-size: 26px;
+            margin: 0 5px;
+        }
+    }
+}
+
+// ================ End conact-us ================
+h1,
+h3 {
+    margin-bottom: 30px !important;
+    color: #555;
+}
+
+p {
+    color: #777;
+}
